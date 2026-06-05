@@ -13,7 +13,7 @@ const BACK_BUTTON_ID = "help-back-to-main";
 const ALL_COMMANDS_ID = "help-all-commands";
 const PAGINATION_PREFIX = "help-page";
 const CATEGORY_SELECT_ID = "help-category-select";
-const FOOTER_TEXT = "Made with ❤️";
+const FOOTER_TEXT = "Made by Noah";
 const SUBCOMMAND_TYPE = 1;
 const SUBCOMMAND_GROUP_TYPE = 2;
 
@@ -153,7 +153,7 @@ async function createCategoryCommandsMenu(category, client) {
     const embed = createEmbed({
         title: `${icon} ${categoryName} Commands`,
         description: categoryCommands.length > 0
-            ? `Click any command mention below to use it:`
+            ? `Available commands under this category:`
             : `No commands found in the **${categoryName}** category.`
     });
 
