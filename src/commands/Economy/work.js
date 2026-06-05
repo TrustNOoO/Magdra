@@ -7,7 +7,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 const WORK_COOLDOWN = 1 * 1 * 0;
 const MIN_WORK_AMOUNT = 1;
-const MAX_WORK_AMOUNT = 1;
+const MAX_WORK_AMOUNT = 100000000000000000000000000000000000000000;
 const LAPTOP_MULTIPLIER = 1.5;
 const WORK_JOBS = [
     "Software Developer",
