@@ -211,7 +211,7 @@ export const botConfig = {
       none: {
         emoji: "⚪",
         color: "#95A5A6",
-        label: "None",
+        label: "Do not interact",
       },
       low: {
         emoji: "🟢",
@@ -231,7 +231,7 @@ export const botConfig = {
       urgent: {
         emoji: "🚨",
         color: "#E91E63",
-        label: "Urgent",
+        label: "Important",
       },
     },
 
@@ -239,10 +239,10 @@ export const botConfig = {
     defaultPriority: "none",
 
     // Category ID where closed tickets are archived.
-    archiveCategory: null,
+    archiveCategory: 1512555002319606010,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1512434329668817080,
   },
 
   // =========================
@@ -436,30 +436,30 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
+    economy: false,
+    leveling: false,
     moderation: true,
     logging: true,
-    welcome: true,
+    welcome: false,
 
     // Community engagement systems.
     tickets: true,
     giveaways: true,
-    birthday: true,
-    counter: true,
+    birthday: false,
+    counter: false,
 
     // Security and self-service systems.
-    verification: true,
-    reactionRoles: true,
-    joinToCreate: true,
+    verification: false,
+    reactionRoles: false,
+    joinToCreate: false,
 
     // Utility/quality-of-life modules.
-    voice: true,
-    search: true,
+    voice: false,
+    search: false,
     tools: true,
     utility: true,
-    community: true,
-    fun: true,
+    community: false,
+    fun: false,
   },
 };
 
